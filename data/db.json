@@ -1,0 +1,39 @@
+{
+  "sessions": [
+    {
+      "location": "Scripps",
+      "date": "2024-12-31",
+      "description": "Pretty good waves.",
+      "score": "4",
+      "id": "1"
+    },
+    {
+      "location": "La Jolla Shores",
+      "date": "2024-12-24",
+      "description": "Ok waves.",
+      "score": "3",
+      "id": "2"
+    },
+    {
+      "id": "8709",
+      "location": "Blacks",
+      "date": "2025-1-2",
+      "description": "Scary waves...",
+      "score": "1"
+    },
+    {
+      "id": "b2a3",
+      "location": "Tourmaline",
+      "date": "2024-12-20",
+      "description": "Lots of people.",
+      "score": "4"
+    },
+    {
+      "id": "a9e5",
+      "location": "La Jolla Shores",
+      "date": "2025-01-01",
+      "description": "Happy new year!",
+      "score": "5"
+    }
+  ]
+}
