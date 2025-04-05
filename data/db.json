@@ -1,13 +1,6 @@
 {
   "sessions": [
     {
-      "location": "Scripps",
-      "date": "2024-12-31",
-      "description": "Pretty good waves.",
-      "score": "4",
-      "id": "1"
-    },
-    {
       "location": "La Jolla Shores",
       "date": "2024-12-24",
       "description": "Ok waves.",
@@ -27,6 +20,13 @@
       "date": "2024-12-20",
       "description": "Lots of people.",
       "score": "4"
+    },
+    {
+      "id": "032b",
+      "location": "Scripps",
+      "date": "2025-04-05",
+      "description": "Nice weather",
+      "score": "5"
     }
   ]
 }
