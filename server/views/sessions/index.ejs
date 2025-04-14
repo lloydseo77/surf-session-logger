@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head.ejs') %>
+<body>
+
+    <%- include('../partials/nav.ejs') %>
+
+    <div class="sessions content">
+        <h2>All Sessions</h2>
+
+        <% if (sessions.length > 0) { %>
+            <% sessions.forEach(blog => { %>
+                <a class="single" href="/sessions/<%= session._id %>">
+                    <h3 class="title"><%= session.title %></h3>
+                    <p class="snippet"><%= session.snippet %></p>
+                </a>
+            <% }) %>
+        <% } else { %>
+            <p>There are no sessions to display...</p>
+        <% } %>
+
+    </div>
+
+    <%- include('../partials/footer.ejs') %>
+</body>
+</html>

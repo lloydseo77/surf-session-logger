@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head.ejs') %>
+<body>
+
+    <%- include('../partials/nav.ejs') %>
+
+    <div class="create-blog content">
+        <form action="/sessions" method="POST">
+            <label for="title">Session title:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="snippet">Session snippet:</label>
+            <input type="text" id="snippet" name="snippet" required>
+            <label for="body">Session body:</label>
+            <textarea id="body" required name="body"></textarea>
+            <button>Submit</button>
+        </form>
+
+    </div>
+    
+    <%- include('../partials/footer.ejs') %>
+
+</body>
+</html>
